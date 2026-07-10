@@ -1,0 +1,6 @@
+# Bu qovluğa DataRace-dən endirdiyiniz faylları əlavə edin:
+# - train.csv
+# - test.csv
+# - sample.csv
+#
+# Yarış qaydalarına görə bu fayllar GitHub-a yüklənmir (.gitignore-a əlavə edilib)

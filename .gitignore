@@ -1,0 +1,81 @@
+# ========================
+# DATA — yarış qaydalarına görə GitHub-a yüklənmir
+# ========================
+data/train.csv
+data/test.csv
+data/sample.csv
+data/*.csv
+
+# Submission output
+outputs/submission.csv
+outputs/*.csv
+
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# ========================
+# Virtual environments
+# ========================
+.env
+.venv
+env/
+venv/
+ENV/
+
+# ========================
+# Jupyter Notebook
+# ========================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ========================
+# Models / Weights (böyük fayllar)
+# ========================
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.bin
+models/
+
+# ========================
+# OS
+# ========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ========================
+# IDE
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
