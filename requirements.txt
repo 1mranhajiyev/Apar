@@ -3,18 +3,20 @@ numpy>=1.24.0
 pandas>=2.0.0
 scikit-learn>=1.3.0
 
-# NLP
+# NLP — Multilingual Transformer
+sentence-transformers>=2.7.0
+torch>=2.0.0          # CPU-only inference
+transformers>=4.40.0
+sentencepiece>=0.1.99
+
+# Güclü klassifikator
+lightgbm>=4.3.0
+
+# Text utilities
 nltk>=3.8.0
 regex>=2023.0.0
 langdetect>=1.0.9
-
-# Feature extraction
 scipy>=1.11.0
-
-# Transformer modellər (isteğe bağlı — CPU inference üçün)
-transformers>=4.40.0
-torch>=2.0.0
-sentencepiece>=0.1.99
 
 # Notebook & visualization
 jupyter>=1.0.0
